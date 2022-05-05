@@ -16,11 +16,6 @@ variable "server_list" {
       server_profile_action  = "unassign"
     },
     {
-      name                   = "BGL101-R1-2",
-      target_platform        = "Standalone",
-      server_profile_action  = "unassign"
-    },
-    {
       name                   = "BGL101-R1-FI101-1",
       target_platform        = "FIAttached",
       server_profile_action  = "unassign"
